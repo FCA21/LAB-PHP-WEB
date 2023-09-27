@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    height: 10%;
+    background-color: #2e1ae2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+
+.center-image {
+    display: flex;
+    background: #f3dd14;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+
+.center-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 10%;
+    background-color:#2d0cbe;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
